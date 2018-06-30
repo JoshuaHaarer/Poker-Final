@@ -1,14 +1,11 @@
 {
-  "name": "poker-boss",
+  "name": "poker-final",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:3001/",
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "react-scripts": "1.1.4",
-    "react-router-dom": "^4.1.2",
-    "axios": "^0.16.2"
+    "react-scripts": "1.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
