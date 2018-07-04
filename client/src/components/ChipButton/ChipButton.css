@@ -1,0 +1,10 @@
+.chip-button {
+    position: relative;
+    text-align: center;
+}
+.button-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
