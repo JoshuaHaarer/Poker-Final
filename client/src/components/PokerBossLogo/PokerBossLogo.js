@@ -6,7 +6,7 @@ class PokerBossLogo extends Component {
    render() {
        return (
         <div className = "poker-boss-logo">
-          <img src = { logo } />
+          <img className = 'logo' src = { logo } />
         </div>    
        );
    } 

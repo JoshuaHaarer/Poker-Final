@@ -3,7 +3,9 @@
     text-align: center;
 }
 .button-text {
+    font-family: 'Playfair Display SC', serif;
     position: absolute;
+    font-size: x-large;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
