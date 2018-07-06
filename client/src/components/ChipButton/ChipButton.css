@@ -1,12 +1,22 @@
 .chip-button {
-    position: relative;
+    display: inline-block;
+    /* position: relative; */
     text-align: center;
+    /* word-wrap: "break-word"; */
 }
+/* hover annimation - also doesn't work */
+/* .chip-button img:hover {
+    width: 100%;
+    height: 100%;
+    box-shadow: 7px 10px 17px 2px #888888;
+    margin: 15px;
+} */
 .button-text {
     font-family: 'Playfair Display SC', serif;
-    position: absolute;
-    font-size: x-large;
+    /* position: absolute; */
+    font-size: 1.5em;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    wordWrap: "break-word";
   }

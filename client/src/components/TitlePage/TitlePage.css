@@ -4,6 +4,23 @@
     width: 100%;
     height: 100%;
 };
-.buttons {
- display: inline-block;
+
+/* why is wordWrap white with a green squiggle underneath it? */
+.wordWrap {
+    wordWrap: "break-word"
 };
+
+/* this isn't working */
+.pokerChip {
+ display: "inline-block";
+};
+
+/* this doesn't work either. I'm trying to center the buttons on the page */
+.buttons {
+    width: 65%;
+};
+
+/* this doesn't work either. I'm trying to lower the logo on the page */
+.logo-position {
+    margin-top: 7%;
+}
