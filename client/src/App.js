@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Footer from "../../poker-final/src/components/Footer"
+import Footer from "./components/Footer";
 
 class App extends Component {
   render() {
