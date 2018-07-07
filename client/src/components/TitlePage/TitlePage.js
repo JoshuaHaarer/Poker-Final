@@ -10,7 +10,7 @@ class TitlePage extends Component {
             return (
     <div className="grn-felt-bkg" style={{backgroundImage:'url('+GreenFelt+')'}} >  
         <div className = "title-page">
-        <PokerBossLogo />
+        <PokerBossLogo className = "logo-position"/>
             <div className = "buttons">
                 <ChipButton text="Login" /> 
                 <ChipButton className = "wrapWords" text="Create Profile" /> 

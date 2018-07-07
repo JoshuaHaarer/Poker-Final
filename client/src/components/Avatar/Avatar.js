@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './Avatar.css';
 
-class Card extends Component {
+class Avatar extends Component {
   
-
     render() {
       return (
-        <div>
+        <div className = "Avatar">
+          <img src = {url PokerTable }> 
         </div>    
       );
     }
