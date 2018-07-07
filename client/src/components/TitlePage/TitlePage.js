@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import PokerBossLogo from '../PokerBossLogo';
 import ChipButton from '../ChipButton';
-import GreenFelt from './GreenFelt.jpg';
+import images from "../../images.json";
 import './TitlePage.css';
 
 
 class TitlePage extends Component {
         render() {
             return (
-    <div className="grn-felt-bkg" style={{backgroundImage:'url('+GreenFelt+')'}} >  
+    <div className="grn-felt-bkg" style={{backgroundImage:'url('+images.GreenFelt.src+')'}} >  
         <div className = "title-page">
         <PokerBossLogo className = "logo-position"/>
             <div className = "buttons">

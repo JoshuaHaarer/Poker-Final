@@ -1,0 +1,11 @@
+{
+    "GreenFelt": {
+        "src": "assets/images/GreenFelt.jpg", 
+        "alt": "GreenFelt"
+    },
+
+    "Batman": {
+        "src": "assets/avatars/Batman.png",
+        "alt": "Batman"
+    }
+}
