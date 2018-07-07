@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Footer from "./components/Footer"
 import TitlePage from "./components/TitlePage"
+import Footer from "./components/Footer";
 
 class App extends Component {
   render() {
