@@ -13,8 +13,8 @@ class TitlePage extends Component {
         <PokerBossLogo className = "logo-position"/>
             <div className = "buttons">
                 <ChipButton text="Login" /> 
-                <ChipButton className = "wrapWords" text="Create Profile" /> 
-                <ChipButton className = "wrapWords" text="Create Game" /> 
+                <ChipButton text="Create Profile" /> 
+                <ChipButton text="Create Game" /> 
             </div>  
         </div> 
     </div>       
