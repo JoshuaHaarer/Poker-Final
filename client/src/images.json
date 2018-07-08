@@ -1,15 +1,149 @@
 {
+    "Field": {
+        "src": "assets/images/field.png",
+        "alt": "Field"
+    },
+    
     "GreenFelt": {
         "src": "assets/images/GreenFelt.jpg", 
         "alt": "GreenFelt"
+    },
+
+    "playing-card-back": {
+        "src": "assest/images/playing_card_back",
+        "alt": "back of playing card"
     },
 
     "Batman": {
         "src": "assets/avatars/Batman.png",
         "alt": "Batman"
     },
-    "Field": {
-        "src": "assets/avatars/field.png",
-        "alt": "Field"
+
+    "Creep-Clown": {
+        "src": "assets/avatars/creepy_clown.png",
+        "alt": "Batman"
+    },
+
+    "Cruella-De-vil": {
+        "src": "assets/avatars/cruella_de_vil.png",
+        "alt": "Cruella De Vil"
+    },
+
+    "Cyril": {
+        "src": "assets/avatars/cryil.png",
+        "alt": "Cyril"
+    },
+
+    "Dinosaur": {
+        "src": "assets/avatars/dinosaur.png",
+        "alt": "Dinosaur"
+    },
+
+    "Empty-Seat": {
+        "src": "assets/avatars/empty-seat.png",
+        "alt": "Empty Seat"
+    },
+
+    "Hello-Kitty": {
+        "src": "assets/avatars/hello_kitty.png",
+        "alt": "Hello Kitty"
+    },
+
+    "Hotdog": {
+        "src": "assets/avatars/hotdog.png",
+        "alt": "Hotdog"
+    },
+
+    "Loud-Mouth-Smileyface": {
+        "src": "assets/avatars/loud_mouth_smileyface.png",
+        "alt": "Loud Mouth Smileyface"
+    },
+
+    "Mr-Burns": {
+        "src": "assets/avatars/mr_burns.png",
+        "alt": "Mr Burns"
+    },
+
+    "Papa-Smurf": {
+        "src": "assets/avatars/papa_smurf.png",
+        "alt": "Papa Smurf"
+    },
+
+    "Penguin": {
+        "src": "assets/avatars/penguin_madagasgar.png",
+        "alt": "Penguin"
+    },
+
+    "Pink Panther": {
+        "src": "assets/avatars/pink_panther.png",
+        "alt": "Pink Panther"
+    },
+
+    "Queen-Of-Hearts": {
+        "src": "assets/avatars/queen_of_hearts.png",
+        "alt": "Queen of Hearts"
+    },
+
+    "Roadrunner": {
+        "src": "assets/avatars/roadrunner.png",
+        "alt": "Roadrunner"
+    },
+
+    "Rugrats_Girl": {
+        "src": "assets/avatars/rugrats_girl.png",
+        "alt": "Rugrats Girl"
+    },
+
+    "Scooby_Do": {
+        "src": "assets/avatars/scooby_do.png",
+        "alt": "Scooby Do"
+    },
+
+    "Shark": {
+        "src": "assets/avatars/shark.png",
+        "alt": "Shark"
+    },
+
+    "Skull-Cowboy": {
+        "src": "assets/avatars/skull_cowboy.png",
+        "alt": "Skull Cowboy"
+    },
+
+    "Snidley-Whiplash": {
+        "src": "assets/avatars/snidley_whiplash.png",
+        "alt": "Snidley Whiplash"
+    },
+
+    "Space-Nemesis": {
+        "src": "assets/avatars/space_nemesis.png",
+        "alt": "Space Nemesis"
+    },
+
+    "Stewie": {
+        "src": "assets/avatars/stewie.png",
+        "alt": "Stewie"
+    },
+
+    "Sylvester-The-Cat": {
+        "src": "assets/avatars/creepy_clown.png",
+        "alt": "Batman"
+    },
+
+    "Ursula": {
+        "src": "assets/avatars/ursula_the_seawitch.png",
+        "alt": "Ursula"
+    },
+
+    "Wind-Sock": {
+        "src": "assets/avatars/wind_sock.png",
+        "alt": "Wind Sock"
+    },
+
+    "Zombie-Carrot": {
+        "src": "assets/avatars/zombie_carrot.png",
+        "alt": "Zombie Carot"
     }
+
+
+
 }
