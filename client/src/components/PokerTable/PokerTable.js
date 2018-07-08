@@ -10,10 +10,16 @@ class PokerTable extends Component {
         return (
             <div className="grn-felt-bkg" style={{ backgroundImage: 'url(' + images.GreenFelt.src + ')' }} >
                 <div className= "player-row">
+                
+                </div>
+                <div className = "field">
+                <img src="assets/images/field.png">
+                </img>
                 </div>
                 <div className= "player-row">
                 </div>
                 <div className= "player-row">
+              
                 </div>
             </div>
         );

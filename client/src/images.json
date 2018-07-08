@@ -7,5 +7,9 @@
     "Batman": {
         "src": "assets/avatars/Batman.png",
         "alt": "Batman"
+    },
+    "Field": {
+        "src": "assets/avatars/field.png",
+        "alt": "Field"
     }
 }
