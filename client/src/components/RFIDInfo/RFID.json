@@ -1,0 +1,369 @@
+[{
+    "id": 1,
+    "symbol": "2C",
+    "rfid": "230042CFD0",
+    "rfid2":"0004378576",
+    "image": "../../../public/images/2C.png"
+},
+{
+    "id": 2,
+    "symbol": "3C",
+    "rfid": "2400E4CDC8",
+    "rfid2":"0014994888",
+    "image": "../../../public/images/3C.png"
+},
+{
+    "id": 3,
+    "symbol": "4C",
+    "rfid": "2300424D2E",
+    "rfid2":"0004345134",
+    "image": "../../../public/images/4C.png"
+},
+{
+    "id": 4,
+    "symbol": "5C",
+    "rfid": "23003F0FFE",
+    "rfid2":"0004132862",
+    "image": "../../../public/images/5C.png"
+},
+{
+    "id": 5,
+    "symbol": "6C",
+    "rfid": "2400249B08",
+    "rfid2":"0002398984",
+    "image": "../../../public/images/6C.png"
+},
+{
+    "id": 6,
+    "symbol": "7C",
+    "rfid": "2400E54643",
+    "rfid2":"0015025731",
+    "image": "../../../public/images/7C.png"
+},
+{
+    "id": 7,
+    "symbol": "8C",
+    "rfid": "2400E50F75",
+    "rfid2":"0015011701",
+    "image": "../../../public/images/8C.png"
+},
+{
+    "id": 8,
+    "symbol": "9C",
+    "rfid": "2400E54A62",
+    "rfid2":"0015026786",
+    "image": "../../../public/images/9C.png"
+},
+{
+    "id": 9,
+    "symbol": "10C",
+    "rfid": "24002490BB",
+    "rfid2":"0002396347",
+    "image": "../../../public/images/10C.png"
+},
+{
+    "id": 10,
+    "symbol": "JC",
+    "rfid": "2300422A91",
+    "rfid2":"0004336273",
+    "image": "../../../public/images/JC.png"
+},
+{
+    "id": 11,
+    "symbol": "QC",
+    "rfid": "24001DEA04",
+    "rfid2":"0001960452",
+    "image": "../../../public/images/QC.png"
+},
+{
+    "id": 12,
+    "symbol": "KC",
+    "rfid": "2400E54F8C",
+    "rfid2":"0015028108",
+    "image": "../../../public/images/KC.png"
+},
+{
+    "id": 13,
+    "symbol": "AC",
+    "rfid": "2400E54F75",
+    "rfid2":"0015028085",
+    "image": "../../../public/images/AC.png"
+},
+{
+    "id": 14,
+    "symbol":"2D",
+    "rfid":"2400249281",
+    "rfid2":"0002396801",
+    "image": "../../../public/images/2D.png"
+},
+{
+    "id": 15,
+    "symbol":"3D",
+    "rfid":"23004296E0",
+    "rfid2":"0004364000",
+    "image": "../../../public/images/3D.png"
+},
+{
+    "id": 16,
+    "symbol":"4D",
+    "rfid":"240023CA48",
+    "rfid2":"0002345544",
+    "image": "../../../public/images/4D.png"
+},
+{
+    "id": 17,
+    "symbol":"5D",
+    "rfid":"2400247C35",
+    "rfid2":"0002391093",
+    "image": "../../../public/images/5D.png"
+},
+{
+    "id": 18,
+    "symbol":"6D",
+    "rfid":"23004295A4",
+    "rfid2":"0004363684",
+    "image": "../../../public/images/6D.png"
+},
+{
+    "id": 19,
+    "symbol":"7D",
+    "rfid":"2300424C07",
+    "rfid2":"0004344839",
+    "image": "../../../public/images/7D.png"
+},
+{
+    "id": 20,
+    "symbol":"8D",
+    "rfid":"24001CF7B9",
+    "rfid2":"0001898425",
+    "image": "../../../public/images/8D.png"
+},
+{
+    "id": 21,
+    "symbol":"9D",
+    "rfid":"2400E4C7E4",
+    "rfid2":"0014993380",
+    "image": "../../../public/images/9D.png"
+},
+{
+    "id": 22,
+    "symbol":"10D",
+    "rfid":"2400E55430",
+    "rfid2":"0015029296",
+    "image": "../../../public/images/10D.png"
+},
+{
+    "id": 23,
+    "symbol":"JD",
+    "rfid":"2400E4A406",
+    "rfid2":"0014984198",
+    "image": "../../../public/images/JD.png"
+},
+{
+    "id": 24,
+    "symbol":"QD",
+    "rfid":"230042B71B",
+    "rfid2":"0004372251",
+    "image": "../../../public/images/QD.png"
+},
+{
+    "id": 25,
+    "symbol":"KD",
+    "rfid":"23003EF165",
+    "rfid2":"0004125029",
+    "image": "../../../public/images/KD.png"
+},
+{
+    "id": 26,
+    "symbol":"AD",
+    "rfid":"2300424D31",
+    "rfid2":"0004345137",
+    "image": "../../../public/images/AD.png"
+},
+{
+    "id": 27,
+    "symbol":"2S",
+    "rfid":"230042DFBD",
+    "rfid2":"0004382653",
+    "image": "../../../public/images/2S.png"
+},
+{
+    "id": 28,
+    "symbol":"3S",
+    "rfid":"2300429586",
+    "rfid2":"0004363654",
+    "image": "../../../public/images/3S.png"
+},
+{
+    "id": 29,
+    "symbol":"4S",
+    "rfid":"2400208065",
+    "rfid2":"0002130021",
+    "image": "../../../public/images/4S.png"
+},
+{
+    "id": 30,
+    "symbol":"5S",
+    "rfid":"2400E51AB3",
+    "rfid2":"0015014579",
+    "image": "../../../public/images/5S.png"
+},
+{
+    "id": 31,
+    "symbol":"6S",
+    "rfid":"2300424D50",
+    "rfid2":"0004345168",
+    "image": "../../../public/images/6S.png"
+},
+{
+    "id": 32,
+    "symbol":"7S",
+    "rfid":"23003ECB0D",
+    "rfid2":"0004115213",
+    "image": "../../../public/images/7S.png"
+},
+{
+    "id": 33,
+    "symbol":"8S",
+    "rfid":"2400208041",
+    "rfid2":"0002129985",
+    "image": "../../../public/images/8S.png"
+},
+{
+    "id": 34,
+    "symbol":"9S",
+    "rfid":"230042EE18",
+    "rfid2":"0004386328",
+    "image": "../../../public/images/9S.png"
+},
+{
+    "id": 35,
+    "symbol":"10S",
+    "rfid":"230042EE30",
+    "rfid2":"0004386352",
+    "image": "../../../public/images/10S.png"
+},
+{
+    "id": 36,
+    "symbol":"JS",
+    "rfid":"2400E54365",
+    "rfid2":"0015024997",
+    "image": "../../../public/images/JS.png"
+},
+{
+    "id": 37,
+    "symbol":"QS",
+    "rfid":"24001CEB60",
+    "rfid2":"0001895264",
+    "image": "../../../public/images/QS.png"
+},
+{
+    "id": 38,
+    "symbol":"KS",
+    "rfid":"2400247C37",
+    "rfid2":"0002391095",
+    "image": "../../../public/images/KS.png"
+},
+{
+    "id": 39,
+    "symbol":"AS",
+    "rfid":"24001D890D",
+    "rfid2":"0001935629",
+    "image": "../../../public/images/AS.png"
+},
+{
+    "id": 40,
+    "symbol":"2H",
+    "rfid":"2300415ED3",
+    "rfid2":"0004284115",
+    "image": "../../../public/images/2H.png"
+},
+{
+    "id": 41,
+    "symbol":"3H",
+    "rfid":"240024340C",
+    "rfid2":"0002372620",
+    "image": "../../../public/images/3H.png"
+},
+{
+    "id": 42,
+    "symbol":"4H",
+    "rfid":"2400247B38",
+    "rfid2":"0002390840",
+    "image": "../../../public/images/4H.png"
+},
+{
+    "id": 43,
+    "symbol":"5H",
+    "rfid":"25008E7D6C",
+    "rfid2":"0009338220",
+    "image": "../../../public/images/5H.png"
+},
+{
+    "id": 44,
+    "symbol":"6H",
+    "rfid":"24009BC7F5",
+    "rfid2":"0010209269",
+    "image": "../../../public/images/6H.png"
+},
+{
+    "id": 45,
+    "symbol":"7H",
+    "rfid":"230041FAF6",
+    "rfid2":"0004324086",
+    "image": "../../../public/images/7H.png"
+},
+{
+    "id": 46,
+    "symbol":"8H",
+    "rfid":"23004300B3",
+    "rfid2":"0004391091",
+    "image": "../../../public/images/8H.png"
+},
+{
+    "id": 47,
+    "symbol":"9H",
+    "rfid":"230042B6D9",
+    "rfid2":"0004372185",
+    "image": "../../../public/images/9H.png"
+},
+{
+    "id": 48,
+    "symbol":"10H",
+    "rfid":"240024321F",
+    "rfid2":"0002372127",
+    "image": "../../../public/images/10H.png"
+},
+{
+    "id": 49,
+    "symbol":"JH",
+    "rfid":"230042B760",
+    "rfid2":"0004372320",
+    "image": "../../../public/images/JH.png"
+},
+{
+    "id": 50,
+    "symbol":"QH",
+    "rfid":"2400E555E5",
+    "rfid2":"0015029733",
+    "image": "../../../public/images/QH.png"
+},
+{
+    "id": 51,
+    "symbol":"KH",
+    "rfid":"240024D96E",
+    "rfid2":"0002414958",
+    "image": "../../../public/images/KH.png"
+},
+{
+    "id": 52,
+    "symbol":"AH",
+    "rfid":"240024B0C6",
+    "rfid2":"0002404550",
+    "image": "../../../public/images/AH.png"
+}
+
+]
+
+
+

@@ -1,0 +1,262 @@
+{
+    "0004378576": {
+        "rfid": "230042CFD0",
+        
+        "image": "../../../public/assets/images/Cards/2C.png"
+    },
+    "0014994888": {
+        "rfid": "2400E4CDC8",
+        
+        "image": "../../../public/assets/images/Cards/3C.png"
+    },
+    "0004345134": {
+        "rfid": "2300424D2E",
+        
+        "image": "../../../public/assets/images/Cards/4C.png"
+    },
+    "0004132862": {
+        "rfid": "23003F0FFE",
+        
+        "image": "../../../public/assets/images/Cards/5C.png"
+    },
+    "0002398984": {
+        "rfid": "2400249B08",
+        
+        "image": "../../../public/assets/images/Cards/6C.png"
+    },
+    "0015025731": {
+        "rfid": "2400E54643",
+        
+        "image": "../../../public/assets/images/Cards/7C.png"
+    },
+    "0015011701": {
+        "rfid": "2400E50F75",
+        
+        "image": "../../../public/assets/images/Cards/8C.png"
+    },
+    "0015026786": {
+        "rfid": "2400E54A62",
+        
+        "image": "../../../public/assets/images/Cards/9C.png"
+    },
+    "0002396347": {
+        "rfid": "24002490BB",
+        
+        "image": "../../../public/assets/images/Cards/10C.png"
+    },
+    "0004336273": {
+        "rfid": "2300422A91",
+        
+        "image": "../../../public/assets/images/Cards/JC.png"
+    },
+    "0001960452": {
+        "rfid": "24001DEA04",
+        
+        "image": "../../../public/assets/images/Cards/QC.png"
+    },
+    "0015028108": {
+        "rfid": "2400E54F8C",
+        
+        "image": "../../../public/assets/images/Cards/KC.png"
+    },
+    "0015028085": {
+        "rfid": "2400E54F75",
+        
+        "image": "../../../public/assets/images/Cards/AC.png"
+    },
+    "0002396801": {
+        "rfid": "2400249281",
+        
+        "image": "../../../public/assets/images/Cards/2D.png"
+    },
+    "0004364000": {
+        "rfid": "23004296E0",
+        
+        "image": "../../../public/assets/images/Cards/3D.png"
+    },
+    "0002345544": {
+        "rfid": "240023CA48",
+        
+        "image": "../../../public/assets/images/Cards/4D.png"
+    },
+    "0002391093": {
+        "rfid": "2400247C35",
+        
+        "image": "../../../public/assets/images/Cards/5D.png"
+    },
+    "0004363684": {
+        "rfid": "23004295A4",
+        
+        "image": "../../../public/assets/images/Cards/6D.png"
+    },
+    "0004344839": {
+        "rfid": "2300424C07",
+        
+        "image": "../../../public/assets/images/Cards/7D.png"
+    },
+    "0001898425": {
+        "rfid": "24001CF7B9",
+        
+        "image": "../../../public/assets/images/Cards/8D.png"
+    },
+    "0014993380": {
+        "rfid": "2400E4C7E4",
+        
+        "image": "../../../public/assets/images/Cards/9D.png"
+    },
+    "0015029296": {
+        "rfid": "2400E55430",
+        
+        "image": "../../../public/assets/images/Cards/10D.png"
+    },
+    "0014984198": {
+        "rfid": "2400E4A406",
+        
+        "image": "../../../public/assets/images/Cards/JD.png"
+    },
+    "0004372251": {
+        "rfid": "230042B71B",
+        
+        "image": "../../../public/assets/images/Cards/QD.png"
+    },
+    "0004125029": {
+        "rfid": "23003EF165",
+        
+        "image": "../../../public/assets/images/Cards/KD.png"
+    },
+    "0004345137": {
+        "rfid": "2300424D31",
+        
+        "image": "../../../public/assets/images/Cards/AD.png"
+    },
+    "0004382653": {
+        "rfid": "230042DFBD",
+        
+        "image": "../../../public/assets/images/Cards/2S.png"
+    },
+    "0004363654": {
+        "rfid": "2300429586",
+        
+        "image": "../../../public/assets/images/Cards/3S.png"
+    },
+    "0002130021": {
+        "rfid": "2400208065",
+        
+        "image": "../../../public/assets/images/Cards/4S.png"
+    },
+    "0015014579": {
+        "rfid": "2400E51AB3",
+        
+        "image": "../../../public/assets/images/Cards/5S.png"
+    },
+    "0004345168": {
+        "rfid": "2300424D50",
+        
+        "image": "../../../public/assets/images/Cards/6S.png"
+    },
+    "0004115213": {
+        "rfid": "23003ECB0D",
+        
+        "image": "../../../public/assets/images/Cards/7S.png"
+    },
+    "0002129985": {
+        "rfid": "2400208041",
+        
+        "image": "../../../public/assets/images/Cards/8S.png"
+    },
+    "0004386328": {
+        "rfid": "230042EE18",
+        
+        "image": "../../../public/assets/images/Cards/9S.png"
+    },
+    "0004386352": {
+        "rfid": "230042EE30",
+        
+        "image": "../../../public/assets/images/Cards/10S.png"
+    },
+    "0015024997": {
+        "rfid": "2400E54365",
+        
+        "image": "../../../public/assets/images/Cards/JS.png"
+    },
+    "0001895264": {
+        "rfid": "24001CEB60",
+        
+        "image": "../../../public/assets/images/Cards/QS.png"
+    },
+    "0002391095": {
+        "rfid": "2400247C37",
+        
+        "image": "../../../public/assets/images/Cards/KS.png"
+    },
+    "0001935629": {
+        "rfid": "24001D890D",
+        
+        "image": "../../../public/assets/images/Cards/AS.png"
+    },
+    "0004284115": {
+        "rfid": "2300415ED3",
+        
+        "image": "../../../public/assets/images/Cards/2H.png"
+    },
+    "0002372620": {
+        "rfid": "240024340C",
+        
+        "image": "../../../public/assets/images/Cards/3H.png"
+    },
+    "0002390840": {
+        "rfid": "2400247B38",
+        
+        "image": "../../../public/assets/images/Cards/4H.png"
+    },
+    "0009338220": {
+        "rfid": "25008E7D6C",
+        
+        "image": "../../../public/assets/images/Cards/5H.png"
+    },
+    "0010209269": {
+        "rfid": "24009BC7F5",
+        
+        "image": "../../../public/assets/images/Cards/6H.png"
+    },
+    "0004324086": {
+        "rfid": "230041FAF6",
+        
+        "image": "../../../public/assets/images/Cards/7H.png"
+    },
+    "0004391091": {
+        "rfid": "23004300B3",
+        
+        "image": "../../../public/assets/images/Cards/8H.png"
+    },
+    "0004372185": {
+        "rfid": "230042B6D9",
+        
+        "image": "../../../public/assets/images/Cards/9H.png"
+    },
+    "0002372127": {
+        "rfid": "240024321F",
+        
+        "image": "../../../public/assets/images/Cards/10H.png"
+    },
+    "0004372320": {
+        "rfid": "230042B760",
+        
+        "image": "../../../public/assets/images/Cards/JH.png"
+    },
+    "0015029733": {
+        "rfid": "2400E555E5",
+        
+        "image": "../../../public/assets/images/Cards/QH.png"
+    },
+    "0002414958": {
+        "rfid": "240024D96E",
+        
+        "image": "../../../public/assets/images/Cards/KH.png"
+    },
+    "0002404550": {
+        "rfid": "240024B0C6",
+        
+        "image": "../../../public/assets/images/Cards/AH.png"
+    }
+}
