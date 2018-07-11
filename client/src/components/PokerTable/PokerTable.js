@@ -20,7 +20,7 @@ class PokerTable extends Component {
                     <div className='seat seat-7' ><Seating /></div>
                     <div className='seat seat-8' ><Seating /></div>
                     <div className='seat seat-9' ><Seating /></div>
-                    <div className="playing-cards">CARDS COMPONENT WILL GO HERE</div>
+                    {/* <div className="playing-cards">CARDS COMPONENT WILL GO HERE</div> */}
                 </div>
 
             </div>

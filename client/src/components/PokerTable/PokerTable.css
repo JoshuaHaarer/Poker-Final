@@ -18,47 +18,47 @@
 }
 
 .seat-1 {
-    top:18%;
+    top:9%;
     left:24%;
 }
 .seat-2 {
-    top: 18%;
+    top: 9%;
     right: 24%;
 }
 .seat-3 {
-    top: 33%;
+    top: 28%;
     right: 2%;
 }
 .seat-4 {
-    top: 55%;
+    top: 57%;
     right: 1%;
 }
 .seat-5 {
-    bottom: 18%;
+    bottom: 9%;
     right: 15%;
 }
 .seat-6 {
-    bottom: 16%;
+    bottom: 9%;
     left: 39%;
 }
 .seat-7 {
-    bottom: 18%;
+    bottom: 9%;
     left: 15%;
 }
 .seat-8 {
-    top: 55%;
+    top: 57%;
     left: 1%;
 }
 .seat-9 {
-    top: 33%;
+    top: 28%;
     left: 2%;
 }
 
-.playing-cards {
+/* .playing-cards {
     position: absolute;
     top: 35%;
     left: 35%;
     width:30vw;
     height:10vh;
     background-color: white;
-}
+} */
