@@ -1,0 +1,134 @@
+{
+    "Batman": {
+        "src": "assets/avatars/Batman.png",
+        "alt": "Batman"
+    },
+
+    "CreepClown": {
+        "src": "assets/avatars/creepy_clown.png",
+        "alt": "Batman"
+    },
+
+    "CruellaDeVil": {
+        "src": "assets/avatars/cruella_de_vil.png",
+        "alt": "Cruella De Vil"
+    },
+
+    "Cyril": {
+        "src": "assets/avatars/cryil.png",
+        "alt": "Cyril"
+    },
+
+    "Dinosaur": {
+        "src": "assets/avatars/dinosaur.png",
+        "alt": "Dinosaur"
+    },
+
+    "EmptySeat": {
+        "src": "assets/avatars/empty_seat.png",
+        "alt": "Empty Seat"
+    },
+
+    "HelloKitty": {
+        "src": "assets/avatars/hello_kitty.png",
+        "alt": "Hello Kitty"
+    },
+
+    "Hotdog": {
+        "src": "assets/avatars/hotdog.png",
+        "alt": "Hotdog"
+    },
+
+    "LoudMouthSmileyface": {
+        "src": "assets/avatars/loud_mouth_smileyface.png",
+        "alt": "Loud Mouth Smileyface"
+    },
+
+    "MrBurns": {
+        "src": "assets/avatars/mr_burns.png",
+        "alt": "Mr Burns"
+    },
+
+    "PapaSmurf": {
+        "src": "assets/avatars/papa_smurf.png",
+        "alt": "Papa Smurf"
+    },
+
+    "Penguin": {
+        "src": "assets/avatars/penguin_madagasgar.png",
+        "alt": "Penguin"
+    },
+
+    "PinkPanther": {
+        "src": "assets/avatars/pink_panther.png",
+        "alt": "Pink Panther"
+    },
+
+    "QueenOfHearts": {
+        "src": "assets/avatars/queen_of_hearts.png",
+        "alt": "Queen of Hearts"
+    },
+
+    "Roadrunner": {
+        "src": "assets/avatars/roadrunner.png",
+        "alt": "Roadrunner"
+    },
+
+    "RugratsGirl": {
+        "src": "assets/avatars/rugrats_girl.png",
+        "alt": "Rugrats Girl"
+    },
+
+    "ScoobyDo": {
+        "src": "assets/avatars/scooby_do.png",
+        "alt": "Scooby Do"
+    },
+
+    "Shark": {
+        "src": "assets/avatars/shark.png",
+        "alt": "Shark"
+    },
+
+    "SkullCowboy": {
+        "src": "assets/avatars/skull_cowboy.png",
+        "alt": "Skull Cowboy"
+    },
+
+    "SnidleyWhiplash": {
+        "src": "assets/avatars/snidley_whiplash.png",
+        "alt": "Snidley Whiplash"
+    },
+
+    "MarvinMartian": {
+        "src": "assets/avatars/marvin_martian.png",
+        "alt": "Marvin Martian"
+    },
+
+    "Stewie": {
+        "src": "assets/avatars/stewie.png",
+        "alt": "Stewie"
+    },
+
+    "SylvesterTheCat": {
+        "src": "assets/avatars/creepy_clown.png",
+        "alt": "Batman"
+    },
+
+    "Ursula": {
+        "src": "assets/avatars/ursula_the_seawitch.png",
+        "alt": "Ursula"
+    },
+
+    "WindSock": {
+        "src": "assets/avatars/wind_sock.png",
+        "alt": "Wind Sock"
+    },
+
+    "ZombieCarrot": {
+        "src": "assets/avatars/zombie_carrot.png",
+        "alt": "Zombie Carot"
+    }
+
+
+
+}

@@ -1,0 +1,9 @@
+.avatar {
+    position: absolute;
+    height: 80%;
+    border-radius: 50%;
+    top: 6%;
+    left: 11%;
+    border: 3px solid #BBBBBB;
+    background-color: white;
+};

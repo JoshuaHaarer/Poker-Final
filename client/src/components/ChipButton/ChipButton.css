@@ -1,0 +1,27 @@
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin: -2% 20% 5%;
+    padding: 0 8%;
+}
+.chip-button {
+    position: relative;
+    text-align: center;
+
+}
+.chip-button:nth-child(2) {
+    top: -50px;
+}
+.chip-button-img {
+    width: 65%;
+    height: auto;
+}
+.button-text {
+    font-family: 'Playfair Display SC', serif;
+    position: absolute;
+    font-size: 10px;
+    max-width: 25%;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
