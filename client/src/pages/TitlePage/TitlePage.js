@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import PokerBossLogo from '../PokerBossLogo';
-import ChipButton from '../ChipButton';
+import PokerBossLogo from '../../components/PokerBossLogo';
+import ChipButton from '../../components/ChipButton';
 import images from "../../images.json";
 import './TitlePage.css';
 

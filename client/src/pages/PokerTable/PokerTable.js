@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import images from "../../images.json";
 import './PokerTable.css';
-import Seating from "../Seating";
+import Seating from "../../components/Seating";
 
 
 class PokerTable extends Component {
