@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import images from "../../images.json";
 import './CreateProfile.css';
-import Seating from "../../components/Seating";
-
 
 class CreateProfile extends Component {
     render() {
@@ -11,8 +9,8 @@ class CreateProfile extends Component {
                 <div className ="container-fluid">
                     <div className ="row justify-content-center">
                         <div className ="col-6 card-form">
-                            <div className ="card font-weight-bold">
-                            <div className="card-header text-center">Account Creation</div>
+                            <div className ="card font-weight-bold animated zoomIn">
+                            <div className="card-header text-center">Profile Creation</div>
                                 <div className ="card-body">
                                     <form>
                                         <div className="form-group">

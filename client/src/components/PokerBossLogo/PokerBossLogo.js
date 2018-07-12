@@ -6,7 +6,7 @@ class PokerBossLogo extends Component {
    render() {
        return (
         <div className = "col-8">
-          <img className = 'img-fluid' src = { logo } />
+          <img className = 'img-fluid animated bounceInDown' src = { logo } />
         </div>    
        );
    } 
