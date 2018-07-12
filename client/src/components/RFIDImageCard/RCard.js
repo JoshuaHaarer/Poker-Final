@@ -5,7 +5,7 @@ import "./RCard.css";
 
 
 const RCard = () => (
-    <div className="card" style={{ width: '18rem' }}>
+    <div className="card rc-card" style={{ width: '18rem' }}>
         <img className="card-img-top" src="" alt="Card image cap" />
         <img className="card-img-top" src="" alt="Card image cap" />
         <div className="card-body">

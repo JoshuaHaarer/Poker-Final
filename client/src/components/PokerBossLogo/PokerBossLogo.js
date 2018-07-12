@@ -5,8 +5,8 @@ import './PokerBossLogo.css';
 class PokerBossLogo extends Component {
    render() {
        return (
-        <div className = "poker-boss-logo">
-          <img className = 'logo' src = { logo } />
+        <div className = "col-8">
+          <img className = 'img-fluid' src = { logo } />
         </div>    
        );
    } 

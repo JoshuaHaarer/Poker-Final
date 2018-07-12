@@ -6,7 +6,7 @@ class ChipButton extends Component {
   render() {
     return (
       <div className="chip-button">
-        <img className="chip-button-img" src={pokerChip} alt="chip button"/>
+        <a href={this.props.link}><img className="img-fluid pokerchip" src={pokerChip} alt="chip button"/></a>
         <div className="button-text"> {this.props.text}</div>
       </div>
     );

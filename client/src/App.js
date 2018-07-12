@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import TitlePage from "./components/TitlePage"
-import PokerTable from './components/PokerTable';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import TitlePage from "./pages/TitlePage"
+import PokerTable from './pages/PokerTable';
+import CreateProfile from './pages/CreateProfile';
 import Footer from "./components/Footer";
 import RCard from "./components/RFIDImageCard";
 
@@ -8,12 +10,16 @@ import RCard from "./components/RFIDImageCard";
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        {/* <TitlePage /> */}
-        <PokerTable />
-      
-        <Footer />
-      </div>
+      <Router>
+        <div className="App">
+          <Switch>
+            <Route exact path="/" component={TitlePage}/>
+            <Route exact path="/table" component={PokerTable}/>
+            <Route exact path="/createprofile" component={CreateProfile}/>
+            <Footer />
+          </Switch>
+        </div>
+      </Router>
     );
   }
 }
