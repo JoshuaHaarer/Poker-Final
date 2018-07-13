@@ -4,12 +4,8 @@ import TitlePage from "./pages/TitlePage"
 import PokerTable from './pages/PokerTable';
 import Footer from "./components/Footer";
 import RCard from "./components/RFIDImageCard";
-
-import CreateGame from "./pages/CreateGame";
-
-import Register from "./components/auth/Register";
-import Login from "./components/auth/Login";
-
+import Login from "./components/auth/Login.js";
+import Register from "./components/auth/Register.js";
 
 
 class App extends Component {
@@ -23,9 +19,9 @@ class App extends Component {
             <Route exact path="/" component={TitlePage}/>
             <Route exact path="/table" component={PokerTable}/>
 
-            <Route exact path="/createprofile" component={CreateProfile}/>
-            <Route exact path="/login" component={Login}/>
-            <Route exact path="/CreateGame" component={CreateGame}/>
+            {/*<Route exact path="/createprofile" component={CreateProfile}/>*/}
+            {/*<Route exact path="/login" component={Login}/>*/}
+            {/*<Route exact path="/CreateGame" component={CreateGame}/>*/}
             
 
             <div className="container">
@@ -34,7 +30,7 @@ class App extends Component {
             </div>
             {/*<Route exact path="/createprofile" component={CreateProfile}/>
                <Route exact path="/login" component={Login}/>*/}
-            <Footer />
+            
 
           </Switch>
           <Footer />
