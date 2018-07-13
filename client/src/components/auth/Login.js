@@ -30,7 +30,7 @@ onSubmit(e) {
 
   //console.log(user);
   // with axios will make login request with onSubmit with user being the data 
-  axios.post('http://localhost:3001/api/users/login' , user) // will have to put http://localhost/3000 if not using proxy value
+  axios.post('/api/users/login' , user) // will have to put http://localhost/3000 if not using proxy value
   .then(res => console.log(res.data))
   .catch(err => this.setState({errors: err.response.data}));//this will set errors to the state errors object
 }
@@ -66,7 +66,7 @@ onSubmit(e) {
                 onChange={this.onChange}
                 />
               </div>
-              <input type="submit" className="btn btn-info btn-block mt-4" />
+              <input type="submit" className="btn btn-danger btn-block mt-4" />
             </form>
           </div>
         </div>
