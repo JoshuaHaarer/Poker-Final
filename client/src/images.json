@@ -1,0 +1,21 @@
+{
+    "Field": {
+        "src": "assets/images/field.png",
+        "alt": "Field"
+    },
+    
+    "GreenFelt": {
+        "src": "assets/images/GreenFelt.jpg", 
+        "alt": "GreenFelt"
+    },
+
+    "playingCardBack": {
+        "src": "assets/images/playing_card_back.png",
+        "alt": "back of playing card"
+    },
+
+    "PlayerBkg": {
+        "src": "assets/images/player-bkg.png",
+        "alt": "Player Background"
+    }
+}

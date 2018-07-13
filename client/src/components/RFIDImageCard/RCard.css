@@ -2,13 +2,9 @@ img {
     float: left;
 }
 
-.card-img-top{
-    float: left;
-}
 
+.rc-card{
 
-
-.card{
     background: green;
     color: black;
     margin-left: 50%;
