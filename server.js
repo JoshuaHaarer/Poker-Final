@@ -35,6 +35,7 @@ require("./config/passport")(passport);
 // app.use(routes);
 // User Route
 app.use("/api/users", users);
+app.use("/api/profile", profile);
 
 // Connect to the Mongo DB
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/poker-boss");
