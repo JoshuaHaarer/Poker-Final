@@ -4,19 +4,30 @@ import TitlePage from "./pages/TitlePage"
 import PokerTable from './pages/PokerTable';
 import Footer from "./components/Footer";
 import RCard from "./components/RFIDImageCard";
+
+import CreateGame from "./pages/CreateGame";
+
 import Register from "./components/auth/Register";
 import Login from "./components/auth/Login";
+
 
 
 class App extends Component {
   render() {
     return (
 
+      
       <Router>
         <div className="App">
           <Switch>
             <Route exact path="/" component={TitlePage}/>
             <Route exact path="/table" component={PokerTable}/>
+
+            <Route exact path="/createprofile" component={CreateProfile}/>
+            <Route exact path="/login" component={Login}/>
+            <Route exact path="/CreateGame" component={CreateGame}/>
+            
+
             <div className="container">
               <Route exact path="/register" component={Register} />
               <Route exact path="/login" component={Login} />
@@ -24,9 +35,12 @@ class App extends Component {
             {/*<Route exact path="/createprofile" component={CreateProfile}/>
                <Route exact path="/login" component={Login}/>*/}
             <Footer />
+
           </Switch>
+          <Footer />
         </div>
       </Router>
+
 
     );
   }

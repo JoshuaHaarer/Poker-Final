@@ -11,7 +11,6 @@ class RCard extends Component {
       };
 
 
-
     handleFormSubmit = () => {
         
         Object.keys(RFID2).forEach(function(x) {
