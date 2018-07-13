@@ -11,6 +11,7 @@ import Login from "./components/auth/Login";
 class App extends Component {
   render() {
     return (
+
       <Router>
         <div className="App">
           <Switch>
@@ -26,6 +27,7 @@ class App extends Component {
           </Switch>
         </div>
       </Router>
+
     );
   }
 }
