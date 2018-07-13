@@ -23,7 +23,7 @@ class Login extends Component {
                                             <input type="text" className="form-control" id="formGroupExampleInput2" placeholder="tacocat"/>
                                         </div>
                                         <div className="col text-center">
-                                            <button type="button" className="btn btn-primary btn-lg">Login</button>
+                                            <button type="button" className="btn btn-danger btn-lg">Login</button>
                                         </div>
                                     </form>
                                 </div>

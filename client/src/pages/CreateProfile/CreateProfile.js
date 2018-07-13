@@ -30,7 +30,7 @@ class CreateProfile extends Component {
                                             <input type="password" className="form-control" id="exampleInputPassword1" placeholder="Password"/>
                                         </div>
                                         <div className="col text-center">
-                                            <button type="button" className="btn btn-primary btn-lg">Submit</button>
+                                            <button type="button" className="btn btn-danger btn-lg">Submit</button>
                                         </div>
                                     </form>
                                 </div>
