@@ -1,0 +1,32 @@
+.seating {
+width: 17vw;
+height: 10vh;
+background-size: 90% auto;
+background-repeat: no-repeat;
+background-position: center center;
+}
+
+.player-name {
+position: absolute;
+color: white;
+font-family: 'Playfair Display SC', serif;
+font-size: .9em;
+top:10%;
+left:45%;
+}
+
+.quit-button {
+position: absolute;
+background-color: #adafb1;
+color: red;
+
+font-weight: bold;
+font-size: 18px;
+line-height: 0px;
+border-radius: 50%;
+top: -10%;
+right: 4%;
+width: 30px;
+height: 30px;
+border: 1px solid #58595b;
+}
