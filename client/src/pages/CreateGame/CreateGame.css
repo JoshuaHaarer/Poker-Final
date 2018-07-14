@@ -1,0 +1,44 @@
+
+
+.form-group{
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 4px 7px #888888;
+    
+}
+
+ChipButton {
+    width: 45%;
+    height: auto;
+}
+
+.form-control{
+    border: 3px solid;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.seating{
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 4px 7px #888888;
+}
+
+#move-players{
+    margin-top:100px;
+    margin-left:150px;
+}
+
+#generate-seats{
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+#start{
+    margin-top:80px;
+    margin-left:125px;
+}
+
+.btn{
+    border: 3px solid;
+    box-shadow: 5px 10px 18px #888888;
+}
