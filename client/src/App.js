@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 import RCard from "./components/RFIDImageCard";
 import Login from "./components/auth/Login.js";
 import Register from "./components/auth/Register.js";
-
+import CreateGame from "./pages/CreateGame";
 
 class App extends Component {
   render() {
@@ -18,7 +18,7 @@ class App extends Component {
           <Switch>
             <Route exact path="/" component={TitlePage}/>
             <Route exact path="/table" component={PokerTable}/>
-
+            <Route exact path="/CreateGame" component={CreateGame} />
             {/*<Route exact path="/createprofile" component={CreateProfile}/>*/}
             {/*<Route exact path="/login" component={Login}/>*/}
             {/*<Route exact path="/CreateGame" component={CreateGame}/>*/}
@@ -31,9 +31,10 @@ class App extends Component {
             {/*<Route exact path="/createprofile" component={CreateProfile}/>
                <Route exact path="/login" component={Login}/>*/}
             
-
+            
           </Switch>
           <Footer />
+          
         </div>
       </Router>
 

@@ -6,8 +6,8 @@ import RFID2 from "../RFIDInfo/RFID2.json";
 
 class RCard extends Component {
     state = {
-        potato: "./assets/images/playing_card_back.png",
-        potato2: "./assets/images/playing_card_back.png"
+        RFIDCard1: "./assets/images/playing_card_back.png",
+        RFIDCard2: "./assets/images/playing_card_back.png"
       };
 
 
@@ -16,7 +16,7 @@ class RCard extends Component {
         Object.keys(RFID2).forEach(function(x) {
             console.log(document.getElementById("card1"));
             console.log(document.getElementById("card2"));
-            if ((document.getElementById(("card1").trim())) === (document.getElementById(("card2").trim()))){
+            if (((document.getElementById("card1")) === (document.getElementById("card2")))){
                 console.log("error");
             }else{
                 console.log("this:", this);
@@ -27,8 +27,8 @@ class RCard extends Component {
             console.log(x, RFID2[x].image);
         });
         this.setState({
-            potato: "Whoa",
-            potato2: "Yeah"
+            RFIDCard1: (document.getElementById("card1".image)),
+            RFIDCard2: (document.getElementById("card2".image))
         });
     }
 
@@ -39,8 +39,8 @@ class RCard extends Component {
     render() {
         return (
             <div className="card rc-card" style={{ width: '18rem' }}>
-                <img className="card-img-top" src={this.state.potato} alt="" />
-                <img className="card-img-top" src={this.state.potato2} alt="" />
+                <img className="card-img-top" src={this.state.RFIDCard1} alt="" />
+                <img className="card-img-top" src={this.state.RFIDCard2} alt="" />
                 <div className="card-body">
                     <h5 className="card-title">Your Cards</h5>
                     <input className="form-control" id="card1" type="text" placeholder="input-1" />
