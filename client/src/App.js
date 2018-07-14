@@ -33,7 +33,7 @@ class App extends Component {
             
 
           </Switch>
-          <Footer />
+          {/*<Footer />*/}
         </div>
       </Router>
 
