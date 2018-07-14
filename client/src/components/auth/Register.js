@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
+import images from "../../images.json";
 import classnames from "classnames"; // this will allow the variable of bootstrap error text by creating a variable of className when needed by errors in form fields
 
 class Register extends Component {
@@ -41,23 +42,25 @@ class Register extends Component {
     // with axios will make registration request with onSubmit with newUser being the data
     // from backend (users.js line 27-73) it will go through validation, save if successful and respond with the user data
     // if post goes wrong it will respond with the error handleing 
-    axios.post('api/users/register' , newUser) // will have to put http://localhost:3000 if not using proxy value
+    axios.post('htttp://localhost:3000/api/users/register' , newUser) // will have to put http://localhost:3000 if not using proxy value
       .then(res => console.log(res.data))
       .catch(err => console.log(err.response.data))
 
   }
 
   render() {
-    
+    const styles = {
+      color: "white"
+    };
     const {errors} = this.state; // using destructuring to pull errors from the state
     
     return (
-      <div className="register">
+      <div className="grn-felt-bkg register" style={{backgroundImage:'url('+images.GreenFelt.src+')'}} > 
         <div className="container">
           <div className="row">
             <div className="col-md-8 m-auto">
-              <h1 className="display-4 text-center">Register</h1>
-              <p className="lead text-center">Create your Player Profile</p>
+              <h1 className="display-4 text-center" style={styles}>Register</h1>
+              <p className="lead text-center" style={styles}>Create your Player Profile</p>
               <form noValidate onSubmit={this.onSubmit}>     
                 <div className="form-group"> 
                   <input

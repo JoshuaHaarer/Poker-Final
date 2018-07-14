@@ -16,8 +16,13 @@ class TitlePage extends Component {
             <div className = "row justify-content-center">
                 <div className = "buttons">
                     <ChipButton text="Login" link="/login"/> 
+
                     <ChipButton text="Create Profile" link="/createprofile" /> 
                     <ChipButton text="Create Game" link="/CreateGame" /> 
+
+                    <ChipButton text="Create Profile" link="/register" /> 
+                    <ChipButton text="Create Game" link="#" /> 
+
                 </div>  
             </div>
         </div> 

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
+import images from "../../images.json";
 import classnames from "classnames"; // this will allow the variable of bootstrap error text by creating a variable of className when needed by errors in form fields
 
 class Login extends Component {
@@ -11,6 +12,8 @@ class Login extends Component {
       password: "",
       errors: {} 
     };
+
+
 
     this.onChange = this.onChange.bind(this);
     this.onSubmit = this.onSubmit.bind(this); // need to bind onChange
@@ -36,14 +39,19 @@ onSubmit(e) {
 }
 
   render() {
+
+    const styles = {
+      color: "white"
+    };
+
     return (
-      <div>
+      <div className="grn-felt-bkg" style={{backgroundImage:'url('+images.GreenFelt.src+')'}} > 
       <div className="login">
       <div className="container">
         <div className="row">
           <div className="col-md-8 m-auto">
-            <h1 className="display-4 text-center">Log In</h1>
-            <p className="lead text-center">Sign into your Player Profile</p>
+            <h1 className="display-4 text-center" style={styles}>Log In</h1>
+            <p className="lead text-center" style={styles}>Sign into your Player Profile</p>
             <form onSubmit={this.onSubmit}>
               <div className="form-group">
                 <input 

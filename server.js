@@ -8,6 +8,7 @@ const PORT = process.env.PORT || 3001;
 
 // Bringing Users Login and Registration Routes
 const users = require("./routes/api/users");
+const profile = require("./routes/api/profile");
 
 /* //Below is how Zane set up Mongodb connection form DB Config to .catch
 //DB Config
@@ -35,6 +36,7 @@ require("./config/passport")(passport);
 // app.use(routes);
 // User Route
 app.use("/api/users", users);
+app.use("/api/profile", profile);
 
 // Connect to the Mongo DB
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/poker-boss");
