@@ -6,6 +6,8 @@ import Footer from "./components/Footer";
 import RCard from "./components/RFIDImageCard";
 import Login from "./components/auth/Login.js";
 import Register from "./components/auth/Register.js";
+import Profile from "./components/auth/Profile.js";
+
 
 
 class App extends Component {
@@ -20,6 +22,7 @@ class App extends Component {
             <Route exact path="/table" component={PokerTable}/>
             <Route exact path="/login" component={Login} />
             <Route exact path="/register" component={Register} />
+            <Route exact path="/profile" component={Profile} />
 
             {/*<Route exact path="/createprofile" component={CreateProfile}/>*/}
             {/*<Route exact path="/login" component={Login}/>*/}
