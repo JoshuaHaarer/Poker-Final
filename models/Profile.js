@@ -1,4 +1,3 @@
-
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
@@ -35,11 +34,10 @@ const ProfileSchema = new Schema({
     min: 0,
     max: 10000000
   },
-  date:{
+  date: {
     type: Date,
     default: Date.now
   }
 });
 
-module.exports = Profile = mongoose.model('profile', ProfileSchema);
-
+module.exports = Profile = mongoose.model("profile", ProfileSchema);
