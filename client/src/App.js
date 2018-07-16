@@ -1,18 +1,17 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import TitlePage from "./pages/TitlePage"
-import PokerTable from './pages/PokerTable';
+import TitlePage from "./pages/TitlePage";
+import PokerTable from "./pages/PokerTable";
 import Footer from "./components/Footer";
 import RCard from "./components/RFIDImageCard";
 import Login from "./components/auth/Login.js";
 import Register from "./components/auth/Register.js";
+import Profile from "./components/auth/Profile.js";
 import CreateGame from "./pages/CreateGame";
 
 class App extends Component {
   render() {
     return (
-
-      
       <Router>
         <div className="App">
           <Switch>
@@ -25,8 +24,6 @@ class App extends Component {
           <Footer />
         </div>
       </Router>
-
-
     );
   }
 }
