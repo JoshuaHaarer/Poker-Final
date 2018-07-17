@@ -8,6 +8,7 @@ import Login from "./components/auth/Login.js";
 import Register from "./components/auth/Register.js";
 import Profile from "./components/auth/Profile.js";
 import CreateGame from "./pages/CreateGame";
+import PokerCounter from "./pages/PokerCounter";
 
 class App extends Component {
   render() {
@@ -20,6 +21,7 @@ class App extends Component {
             <Route exact path="/CreateGame" component={CreateGame} />
             <Route exact path="/login" component={Login} />
             <Route exact path="/register" component={Register} />
+            <Route exact path="/counter" component={PokerCounter} />
           </Switch>
           <Footer />
         </div>
