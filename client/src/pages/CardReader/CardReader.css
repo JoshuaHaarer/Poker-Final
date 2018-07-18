@@ -11,3 +11,22 @@ li{
 .instructions{
     font-size: 20px;
 }
+
+.card-img-top {
+    height: auto;
+    width: 200%;
+}
+
+
+.rc-card{
+    height: auto;
+    width: 10rem; 
+    background: green;
+    color: black;
+    margin-left: 50%;
+    margin-right: 50%;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 18px #888888;
+    
+}
