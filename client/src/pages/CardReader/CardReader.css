@@ -1,0 +1,17 @@
+.row{
+    margin-top: 20px;
+}
+
+.col{
+    align-content: center;
+    text-align: center;
+}
+
+li{
+    color:white;
+    font-size: 40px;
+}
+
+.instructions{
+    font-size: 20px;
+}

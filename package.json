@@ -31,6 +31,7 @@
     "mongoose": "^5.0.17",
     "passport": "^0.4.0",
     "passport-jwt": "^4.0.0",
+    "react-angular": "^0.4.0",
     "validator": "^10.4.0"
   }
 }

@@ -3,10 +3,10 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import TitlePage from "./pages/TitlePage"
 import PokerTable from './pages/PokerTable';
 import Footer from "./components/Footer";
-import RCard from "./components/RFIDImageCard";
 import Login from "./components/auth/Login.js";
 import Register from "./components/auth/Register.js";
 import CreateGame from "./pages/CreateGame";
+import CardReader from "./pages/CardReader";
 
 class App extends Component {
   render() {
@@ -22,7 +22,7 @@ class App extends Component {
             {/*<Route exact path="/createprofile" component={CreateProfile}/>*/}
             {/*<Route exact path="/login" component={Login}/>*/}
             {/*<Route exact path="/CreateGame" component={CreateGame}/>*/}
-            
+            <Route exact path="/CardReader" component={CardReader} />
 
             <div className="container">
               <Route exact path="/register" component={Register} />
