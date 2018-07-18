@@ -13,6 +13,9 @@
     "build": "cd client && npm run build",
     "heroku-postbuild": "npm run build"
   },
+  "engines" {
+    "node": "8.9.4"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
