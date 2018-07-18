@@ -3,8 +3,11 @@ import images from "../../images.json";
 import ChipButton from "../../components/ChipButton";
 import "./CreateGame.css";
 
-class CreateGame extends Component {
 
+class CreateGame extends Component {
+    state = {
+        
+    }
     render() {
         return (
         <div className="grn-felt-bkg" style={{backgroundImage:'url('+images.GreenFelt.src+')'}} >
@@ -27,44 +30,48 @@ class CreateGame extends Component {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-md-6">
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Game Style</label>
-                            <textarea class="form-control" id="gameStyle exampleFormControlTextarea1" rows="3"></textarea>
+                <div className="col-3"></div>
+                <div className="col-6">
+                    <form>
+                        <div className="form-group">
+                            <label for="gametype-select">Select Your GameType</label>
+                            <select multiple className="form-control" id="gametype-select">
+                                <option>Texas Hold-Em</option>
+                            </select>
                         </div>
-                    </div>
-                    <div className="col-md-2">
-                    <button type="button" id="generate-seats" class="btn btn-danger">Generate Seats</button>
-                    </div>
-                    <div className="col-md-4">
+                    </form>
+                </div>
+                    
+                    <div className="col-3">
                     <button type="button" id="start" class="btn btn-danger">Start</button>
                     </div>
+
                 </div>
                 <div className="row justify-content-center">
                     <div className="seating">SEATING</div>
                 </div>
                 <div className="row">
-                    <div className="col-md-4">
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Table #1</label>
-                            <textarea class="form-control" id="table1 exampleFormControlTextarea1" rows="3"></textarea>
+                    <div className="col-2"></div>
+                        <div className="col-8 text-center">
+                        <div className="table" ng-app="app" ng-controller="TableCtrl">
+                            <header>
+                                <span>Min Seats/Table:</span>
+                                <input type="number" ng-model="options.seats" ng-init="options.seats=5" />
+                                <button className="btn btn-success mt-1" ng-click="generate()">Generate Tables</button>
+                            </header>
+                            <ul>
+                                <li ng-repeat="table in tables">
+                                    <header>Table {/*{{$index+1}}*/}</header>
+                                    <div className="person" ng-repeat="person in table track by $index">{/*{{person}}*/}</div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                    <div className="col-md-4">
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Table #2</label>
-                            <textarea class="form-control" id="table2 exampleFormControlTextarea1" rows="3"></textarea>
-                        </div>
-                    </div>
-                    <div className="col-md-4">
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Table #3</label>
-                            <textarea class="form-control" id="table3 exampleFormControlTextarea1" rows="3"></textarea>
-                        </div>
-                    </div>
+                    <div className="col-2"></div>
                 </div>
 
             </div>
+            
         </div>
              
         );
