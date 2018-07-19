@@ -9,7 +9,7 @@
     text-align: center;
 
 }
-.chip-button:nth-child(2) {
+.chip-button:nth-child(2), .chip-button:nth-child(3)  {
     top: -50px;
 }
 .chip-button-img {
@@ -20,10 +20,10 @@
     font-family: 'Playfair Display SC', serif;
     position: absolute;
     font-size: 15px;
-    max-width: 25%;
     top: 47%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
+    text-align: center;
 }
 
 .pokerchip { 
