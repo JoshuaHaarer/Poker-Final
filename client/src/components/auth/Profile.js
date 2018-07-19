@@ -8,6 +8,8 @@ import "./Proflile.css";
 
 
 class Profile extends Component {
+
+  
   render() {
 
     const styles = {
@@ -32,18 +34,19 @@ class Profile extends Component {
                     <p className="card-text" />
                   </div>
                   <ul className="list-group list-group-flush">
-                    <li className="list-group-item">Player Name: Josh </li>
-                    <li className="list-group-item">Player Wins: 0 </li>
-                    <li className="list-group-item">Player Knockouts: 0 </li>
-                    <li className="list-group-item">Player Rank: 0 </li>
+                    <h6 className="list-group-item text-dark">Player Name: Josh </h6>
+                    <h6 className="list-group-item text-dark">Player Wins: 0 </h6>
+                    <h6 className="list-group-item text-dark">Player Knockouts: 0 </h6>
+                    <h6 className="list-group-item text-dark">Player Rank: 0 </h6>
                   </ul>
                   <div className="card-body">
-                    <a className="home" href="#" className="card-link">
-                      Poker Boss Home
-                    </a>
-                    <a className="tour" href="#" className="card-link">
+                    <a href="http://localhost:3000" className=" card-link text-dark home">
+                      Poker Boss Home  
+                      <a href="http://localhost:3000/creategame" className="card-link text-dark tour">
                       Tournament Info
                     </a>
+                    </a>
+                    
                   </div>
                 </div>
                 
