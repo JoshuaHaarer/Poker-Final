@@ -16,8 +16,8 @@ class App extends Component {
       <Router>
         <div className="App">
           <Switch>
-            <Route exact path="/" component={TitlePage}/>
-            <Route exact path="/table" component={PokerTable}/>
+            <Route exact path="/" component={TitlePage} />
+            <Route exact path="/table" component={PokerTable} />
             <Route exact path="/CreateGame" component={CreateGame} />
             <Route exact path="/login" component={Login} />
             <Route exact path="/register" component={Register} />
@@ -27,15 +27,6 @@ class App extends Component {
             {/*<Route exact path="/login" component={Login}/>*/}
             {/*<Route exact path="/CreateGame" component={CreateGame}/>*/}
             <Route exact path="/CardReader" component={CardReader} />
-
-            
-              
-              
-            
-            {/*<Route exact path="/createprofile" component={CreateProfile}/>
-               <Route exact path="/login" component={Login}/>*/}
-            
-            
           </Switch>
           <Footer />
         </div>
