@@ -42,7 +42,7 @@ class Register extends Component {
     // with axios will make registration request with onSubmit with newUser being the data
     // from backend (users.js line 27-73) it will go through validation, save if successful and respond with the user data
     // if post goes wrong it will respond with the error handleing 
-    axios.post('htttp://localhost:3000/api/users/register' , newUser) // will have to put http://localhost:3000 if not using proxy value
+    axios.post('/api/users/register' , newUser) // will have to put http://localhost:3000 if not using proxy value
       .then(res => console.log(res.data))
       .catch(err => console.log(err.response.data))
 

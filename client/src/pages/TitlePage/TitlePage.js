@@ -6,7 +6,11 @@ import './TitlePage.css';
 
 
 class TitlePage extends Component {
+
     render() {
+
+        const { loggedIn, handleLogout } = this.props;
+
         return (
             <div className="grn-felt-bkg" style={{backgroundImage:'url('+images.GreenFelt.src+')'}} >  
                 <div className = "container-fluid">
@@ -15,7 +19,15 @@ class TitlePage extends Component {
                     </div>
                     <div className = "row justify-content-center">
                         <div className = "buttons">
-                            <ChipButton text="Login" link="/login"/> 
+                            {
+                                loggedIn
+                                    ?   <div onClick={handleLogout}>
+                                            <ChipButton text="Log Out" link="/logout" />
+                                        </div>
+                                    :   <ChipButton text="Login" link="/login"/> 
+                                
+                            }
+                            
                             <ChipButton text="Create Profile" link="/createprofile" /> 
                             <ChipButton text="Create Game" link="/CreateGame" />
                             <ChipButton text="Card Reader" link="/CardReader" /> 
