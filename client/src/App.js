@@ -76,21 +76,44 @@ class App extends Component {
   }
 
   handleLogout = () => {
-    this.setState({
-      user: null,
-      loggedIn: false
-    });
+
+    axios.get('/api/users/logout')
+      .then(response => {
+        // clear localStorage of jwtToken
+        localStorage.setItem('jwtToken', null);
+        // update state with empty user and token.
+        this.setState({
+          user: null,
+          token: null,
+          loggedIn: false
+        });
+      })
+      .catch(error => {
+        // if it fails perhaps can add some notification handling here.
+        console.log(error.response)
+      })
+    
   }
 
   render() {
     // declared loggedIn through ES6 destructuring assignment
     const { loggedIn } = this.state;
+    console.log('App component rerendred')
 
     return (
       <Router>
         <div className="App">
           <Switch>
-            <Route exact path="/" component={TitlePage} />
+            {/* use render prop instead of component prop for Route b/c we want to pass in
+            props to the rendered element (component prop won't let us do that). */}
+            <Route exact path="/" render={routerProps => (
+                <TitlePage
+                  {...routerProps}
+                  handleLogout={this.handleLogout}
+                  loggedIn={loggedIn}
+                />
+              )}
+            />
 
             {/* use render prop instead of component prop for Route b/c we want to pass in
             props to the rendered element (component prop won't let us do that). */}
@@ -104,6 +127,8 @@ class App extends Component {
             <AuthRoute loggedIn={loggedIn} exact path="/CreateGame" component={CreateGame} />
             <AuthRoute loggedIn={loggedIn} exact path="/createprofile" component={Profile} />
             <AuthRoute loggedIn={loggedIn} exact path="/CardReader" component={CardReader} />
+
+            <Redirect from="/logout" to="/" />
 
             {/*<Route exact path="/createprofile" component={CreateProfile}/>*/}
             {/*<Route exact path="/login" component={Login}/>*/}

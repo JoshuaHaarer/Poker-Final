@@ -150,4 +150,12 @@ router.get(
   }
 );
 
+// @route GET api/users/logout
+// @desc Current user
+// @access Private
+router.get('/logout', (req, res) => {
+  req.logout();
+  res.redirect('/'); // make sure to call event.preventDefault() on front-end to prevent redirect.
+});
+
 module.exports = router;

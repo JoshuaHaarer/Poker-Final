@@ -32,14 +32,14 @@ onSubmit(e) {
   //console.log(user);
   // with axios will make login request with onSubmit with user being the data 
   axios.post('/api/users/login' , user) // will have to put http://localhost/3000 if not using proxy value
-  .then(res => {
-    console.log(res.data);
-    // set the jwtToken in local storage to cache our authenticated "session" (client-side session)
-    localStorage.setItem('jwtToken', res.data.token);
-    // pass the token up to the parent through this.props.handleLogin
-    this.props.handleLogin(res.data.token);
-  })
-  .catch(err => this.setState({errors: err.response.data}));//this will set errors to the state errors object
+    .then(res => {
+      console.log(res.data);
+      // set the jwtToken in local storage to cache our authenticated "session" (client-side session)
+      localStorage.setItem('jwtToken', res.data.token);
+      // pass the token up to the parent through this.props.handleLogin
+      this.props.handleLogin(res.data.token);
+    })
+    .catch(err => this.setState({errors: err.response.data}));//this will set errors to the state errors object
 }
 
   render() {
