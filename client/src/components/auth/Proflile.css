@@ -9,13 +9,18 @@
 .card-img-top {
   width: 100px;
   height: 100px;
-  margin-bottom: 10px ;
+  margin-bottom: 10px;
 }
 
 .home {
-    color: black;
+  color: black;
 }
 
 .tour {
-    color: black;
+  color: black;
+}
+
+#profileImage {
+  height: 100px;
+  width: 100px;
 }

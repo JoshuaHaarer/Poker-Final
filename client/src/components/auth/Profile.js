@@ -26,7 +26,7 @@ class Profile extends Component {
                 <hr className="my-3" />
                 
                 <div className="card col-md-8 m-auto" style={styles}>
-                <img class="card-img-top m-auto" src="assets/avatars/empty_seat.png" alt="Card image cap"></img>
+                <img class="card-img-top m-auto" id="profileImage" src="assets/avatars/empty_seat.png" alt="Card image cap"></img>
                   <div className="card-body">
                     <h5 className="card-title mt-2">
                       Poker Boss Player Profile
@@ -40,12 +40,12 @@ class Profile extends Component {
                     <h6 className="list-group-item text-dark">Player Rank: 0 </h6>
                   </ul>
                   <div className="card-body">
-                    <a href="http://localhost:3000" className=" card-link text-dark home">
-                      Poker Boss Home  
-                      <a href="http://localhost:3000/creategame" className="card-link text-dark tour">
-                      Tournament Info
+                    <a link="/" text="Home" className="card-link text-dark home">
+                      Home </a>
+                      <a link="/creategame" className="card-link text-dark tour">
+                       Tournament Info
                     </a>
-                    </a>
+                    
                     
                   </div>
                 </div>
