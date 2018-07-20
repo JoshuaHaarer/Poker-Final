@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 import images from "../../images.json";
+import "./Login.css"
 import classnames from "classnames"; // this will allow the variable of bootstrap error text by creating a variable of className when needed by errors in form fields
 
 class Login extends Component {
@@ -78,7 +79,7 @@ onSubmit(e) {
                 onChange={this.onChange}
                 />
               </div>
-              <input type="submit" className="btn btn-danger btn-block mt-4" />
+              <input type="submit" id="login-submit" className="btn btn-danger btn-block mt-4" />
             </form>
           </div>
         </div>
