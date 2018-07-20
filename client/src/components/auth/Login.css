@@ -4,3 +4,10 @@
     width: 100vw;
     height: 100vh;
 }
+.form-control.form-control-lg {
+    background-color: white;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.00);
+}
+#login-submit {
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.00);
+}
