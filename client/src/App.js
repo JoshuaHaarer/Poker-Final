@@ -118,6 +118,7 @@ class App extends Component {
                 />
               )}
             />
+            <Route exact path="/pokerCounter" component={PokerCounter} />
 
             {/* use render prop instead of component prop for Route b/c we want to pass in
             props to the rendered element (component prop won't let us do that). */}
