@@ -5,15 +5,19 @@ Poker Boss is a poker management app designed to handle the smallest home games 
 
 <img src="/client/public/assets/images/home-page.PNG" height="400px" width="900px">
 
-### JSON Web Token Authorization For Player Credentials 
-<img src="/client/public/assets/images/">
 
-### Full Fledge Player Management
-<img src="/client/public/assets/images/create-game.PNG">
+
+### Full Fledged Player Management
+<img src="/client/public/assets/images/create-game.PNG" height="400px" width="900px">
+
+### JSON Web Token Authorization For Player Credentials 
+<img src="/client/public/assets/images/" height="400px" width="900px">
+
 ### Game Timer And Blinds Tracker For The Players And Management
-<img src="/client/public/assets/images/counter.PNG">
+<img src="/client/public/assets/images/counter.PNG" height="400px" width="900px">
+
 ### RFID Technology To Keep Track Of Cards And Game Play
-<img src="/client/public/assets/images/card-reader.PNG">
+<img src="/client/public/assets/images/card-reader.PNG" height="400px" width="900px">
 
 ![Poker Boss Login](/client/public/assets/images/)
 ![Poker Boss Create Game](/client/public/assets/images/)
