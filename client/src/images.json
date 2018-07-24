@@ -9,6 +9,16 @@
         "alt": "GreenFelt"
     },
 
+    "logInPage": {
+        "src": "assests/images/logInPage.jpg",
+        "alt": "LogInPage"
+    },
+
+    "CreateBkgGrnFelt": {
+        "src": "assets/images/createGameGrnBkg.jpg",
+        "alt": "Create Background Green Felt"
+    },
+
     "playingCardBack": {
         "src": "assets/images/playing_card_back.png",
         "alt": "back of playing card"
@@ -17,5 +27,10 @@
     "PlayerBkg": {
         "src": "assets/images/player-bkg.png",
         "alt": "Player Background"
+    },
+
+    "ArrowButton": {
+        "src": "assets/images/arrow-button.png",
+        "alt": "arrow button"
     }
 }

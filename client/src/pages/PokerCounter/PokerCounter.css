@@ -1,0 +1,15 @@
+.grn-felt-bkg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+};
+
+#blind {
+  color: #f3fc3f;
+  font-family: georgia;
+  font-size: 300px;
+  /* margin-top: -80px; */
+  /* text-align: center; */
+  /* text-shadow: rgba(0, 0, 0, 1) 0px 2px 2px; */
+}

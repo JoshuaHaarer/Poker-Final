@@ -1,0 +1,64 @@
+.grn-felt-bkg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.field {
+    width:100%;
+    height:100%;
+    background-size: 62% auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.seat {
+    position: absolute;
+}
+
+.seat-1 {
+    top:9%;
+    left:24%;
+}
+.seat-2 {
+    top: 9%;
+    right: 24%;
+}
+.seat-3 {
+    top: 28%;
+    right: 2%;
+}
+.seat-4 {
+    top: 57%;
+    right: 1%;
+}
+.seat-5 {
+    bottom: 9%;
+    right: 15%;
+}
+.seat-6 {
+    bottom: 9%;
+    left: 39%;
+}
+.seat-7 {
+    bottom: 9%;
+    left: 15%;
+}
+.seat-8 {
+    top: 57%;
+    left: 1%;
+}
+.seat-9 {
+    top: 28%;
+    left: 2%;
+}
+
+/* .playing-cards {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    width:30vw;
+    height:10vh;
+    background-color: white;
+} */

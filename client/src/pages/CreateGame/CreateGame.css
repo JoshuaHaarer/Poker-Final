@@ -1,0 +1,93 @@
+
+
+.form-group{
+    color: white;
+    font-size: 30px;
+    /* text-shadow: 2px 4px 7px #888888; */
+    
+}
+
+.form-control{
+    border: 3px solid;
+
+}
+
+.seating{
+    color: white;
+    font-size: 30px;
+    padding-top: 40px;
+}
+
+#move-players{
+    margin-top:100px;
+    margin-left:150px;
+}
+
+#generate-seats{
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+#start{
+    margin-top:80px;
+    margin-left:125px;
+}
+
+.btn{
+    border: 3px solid;
+   
+}
+
+.form-control{
+    background-color: white;
+}
+
+.heading-text {
+    font-family: 'Playfair Display SC', serif;
+    text-align: center;
+    color: white;
+
+}
+
+.container-fluid {
+    max-width: 80%
+}
+
+.game-choice-box {
+    background-color: white;
+}
+
+.center-content,
+h2 {
+    margin: auto;
+}
+
+.counter-dropdown {
+    max-width: 100px;
+    margin: 10px auto;
+}
+
+.generate-table-chip-button {
+    float: right;
+    /* position: relative; */
+    /* margin:20%;
+    bottom: 20%; */
+    width: 80%;
+    height: auto;
+}
+
+ChipButton {
+    width: 45%;
+    height: auto;
+}
+.chip-button-img {
+    width: 65%;
+    height: auto;
+}
+
+.arrow-button {
+    margin-top:11%;
+    border: none;
+    background: transparent;
+  
+}
