@@ -24,3 +24,10 @@ Poker Boss is a poker management app designed to handle the smallest home games 
 ![Poker Boss Counter](/client/public/assets/images/)
 ![Poker Boss RFID](/client/public/assets/images/)
 
+This app was Created and Maintained by:
+--------------------------------------------
+* Kathy Giebelhausen- Front End, CSS, Photoshop
+* Josh Haarer- RFID, Front End
+* Zane Pence- Front End, Back End, JSON Web Token Authentication, Mongo Database
+* Fabio Restrepo- Front End, Back End, Project Coordination
+* Greg Trapp- Front End, Game Timer
