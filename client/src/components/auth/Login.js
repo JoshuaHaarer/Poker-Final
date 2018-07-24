@@ -49,6 +49,13 @@ onSubmit(e) {
     const styles = {
       color: "white"
     };
+    console.log('this.props',this.props)
+
+    const { location } = this.props;
+    // let showRegistrationSuccessMsg = true
+    let showRegistrationSuccessMsg = (
+      location.pathname.includes('registerSuccess')
+    );
 
     return (
       <div className="grn-felt-bkg" style={{backgroundImage:'url('+images.GreenFelt.src+')'}} > 
@@ -82,7 +89,13 @@ onSubmit(e) {
               </div>
               <input type="submit" id="login-submit" className="btn btn-danger btn-block mt-4" />
             </form>
-            <ChipButton className="img-fluid" text="New User" link="/Register" />
+            {
+              showRegistrationSuccessMsg
+                ? <div className="alert alert-success" style={{ marginTop: '20px' }}>
+                    New user successfully registered!
+                  </div>
+                : <ChipButton className="img-fluid" text="New User" link="/register" />
+            }
           </div>
         </div>
       </div>

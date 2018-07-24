@@ -28,7 +28,7 @@ class TitlePage extends Component {
                                 
                             }
                             
-                            <ChipButton text="Create Profile" link="/createprofile" /> 
+                            <ChipButton text="Player Profile" link="/profile" /> 
                             <ChipButton text="Create Game" link="/CreateGame" />
                             <ChipButton text="Card Reader" link="/CardReader" /> 
                         </div>  

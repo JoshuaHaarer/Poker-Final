@@ -95,6 +95,10 @@ class App extends Component {
     
   }
 
+  handleRegistrationSuccess = newUser => {
+    // add some logic here to alert the user that registration was successful
+  }
+
   render() {
     // declared loggedIn through ES6 destructuring assignment
     const { loggedIn } = this.state;
@@ -117,18 +121,23 @@ class App extends Component {
 
             {/* use render prop instead of component prop for Route b/c we want to pass in
             props to the rendered element (component prop won't let us do that). */}
-            <NoAuthRoute loggedIn={loggedIn} exact path="/login" render={routerProps => (
+            <NoAuthRoute loggedIn={loggedIn} path="/login" render={routerProps => (
                 <Login {...routerProps} handleLogin={this.handleLogin} />
               )}
             />
-            <NoAuthRoute loggedIn={loggedIn} exact path="/register" component={Register} />
+            <NoAuthRoute loggedIn={loggedIn} exact path="/register" render={routerProps => (
+                <Register {...routerProps} handleLogin={this.handleLogin} />
+              )}
+            />
 
             <AuthRoute loggedIn={loggedIn} exact path="/table" component={PokerTable} />
             <AuthRoute loggedIn={loggedIn} exact path="/CreateGame" component={CreateGame} />
-            <AuthRoute loggedIn={loggedIn} exact path="/createprofile" component={Profile} />
+            <AuthRoute loggedIn={loggedIn} exact path="/profile" component={Profile} />
             <AuthRoute loggedIn={loggedIn} exact path="/CardReader" component={CardReader} />
 
             <Redirect from="/logout" to="/" />
+           
+
 
             {/*<Route exact path="/createprofile" component={CreateProfile}/>*/}
             {/*<Route exact path="/login" component={Login}/>*/}

@@ -65,7 +65,12 @@ router.post("/register", (req, res) => {
           newUser.password = hash; // sets the password to the hash (instead of plain text)
           newUser
             .save() // gives us user that is created
-            .then(user => res.json(user)) // sends back sucessful response with that user (responds with the user)
+            .then(user => res.json({
+              id: user.id,
+              name: user.name,
+              email: user.email,
+              avatar: user.avatar
+            })) // sends back sucessful response with that user (responds with the user)
             .catch(err => console.log(err));
         });
       });

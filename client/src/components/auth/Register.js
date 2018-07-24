@@ -43,7 +43,11 @@ class Register extends Component {
     // from backend (users.js line 27-73) it will go through validation, save if successful and respond with the user data
     // if post goes wrong it will respond with the error handleing 
     axios.post('/api/users/register' , newUser) // will have to put http://localhost:3000 if not using proxy value
-      .then(res => console.log(res.data))
+      .then(res => {
+        console.log(res.data);
+        // use react router v4 history object to direct user to a new link
+        this.props.history.push('/');  // this.props.history.push('/login/registerSuccess');
+      })
       .catch(err => console.log(err.response.data))
 
   }
