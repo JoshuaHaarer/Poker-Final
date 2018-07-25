@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import images from "../../images.json";
 import ChipButton from '../../components/ChipButton';
-import ArrowButton from '../../components/ArrowButton';
+// import ArrowButton from './../components/arrow-button';
 import "./CreateGame.css";
 
 
@@ -26,7 +26,7 @@ class CreateGame extends Component {
                             </form>
                         </div>
                         <div className="col-2">
-                            <ArrowButton onClick={console.log("clicked")}/>
+                            {/* <ArrowButton onClick={console.log("clicked")}/> */}
                             {/* <button type="button" id="move-players" className="btn btn-danger">Move Players</button>*/}
                         </div>
                         <div className="col-md-5">

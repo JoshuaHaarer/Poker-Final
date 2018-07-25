@@ -1,0 +1,26 @@
+.jumbotron {
+  background-color: white;
+  border-color: black;
+  border-width: 10px;
+  text-align: center;
+  align-content: center;
+}
+
+.card-img-top {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.home {
+  color: black;
+}
+
+.tour {
+  color: black;
+}
+
+#profileImage {
+  height: 100px;
+  width: 100px;
+}

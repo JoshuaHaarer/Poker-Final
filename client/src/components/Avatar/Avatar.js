@@ -3,6 +3,7 @@ import images from '../../images.json';
 import avatars from "../../avatars.json";
 import './Avatar.css';
 
+
 class Avatar extends Component {
   render() {
 
@@ -18,7 +19,7 @@ class Avatar extends Component {
     }
 
     return (
-        <img className="avatar" src = { avatarSrc} /> 
+      <img className="avatar" src = { avatarSrc} />
     );
   }
 }

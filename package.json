@@ -13,6 +13,10 @@
     "build": "cd client && npm run build",
     "heroku-postbuild": "npm run build"
   },
+  "engines": {
+    "node": ">=8.9.4",
+    "yarn": "1.7.0"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -21,10 +25,17 @@
   },
   "dependencies": {
     "axios": "^0.16.2",
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.17.2",
     "express": "^4.15.4",
+    "gravatar": "^1.6.0",
     "if-env": "^1.0.4",
+    "jsonwebtoken": "^8.3.0",
     "mdbreact": "^4.5.1",
-    "mongoose": "^5.0.17"
+    "mongoose": "^5.0.17",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "react-angular": "^0.4.0",
+    "validator": "^10.4.0"
   }
 }

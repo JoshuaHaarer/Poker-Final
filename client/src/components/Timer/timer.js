@@ -1,4 +1,4 @@
-var TimerExample = React.createClass({
+const TimerExample = React.createClass({
 
     getInitialState: function(){
 
