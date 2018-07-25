@@ -11,3 +11,10 @@
 #login-submit {
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.00);
 }
+
+.img-fluid {
+    width: 23%;
+    height: auto;
+    margin-top: 5px;
+}
+

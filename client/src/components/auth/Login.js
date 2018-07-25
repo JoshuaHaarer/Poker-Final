@@ -88,7 +88,7 @@ onSubmit(e) {
                 />
               </div>
               <input type="submit" id="login-submit" className="btn btn-danger btn-block mt-4" />
-            </form>
+            </form><br/><br/>
             {
               showRegistrationSuccessMsg
                 ? <div className="alert alert-success" style={{ marginTop: '20px' }}>
