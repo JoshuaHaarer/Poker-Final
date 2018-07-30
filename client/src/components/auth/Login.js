@@ -58,7 +58,7 @@ onSubmit(e) {
     );
 
     return (
-      <div className="grn-felt-bkg" style={{backgroundImage:'url('+images.GreenFelt.src+')'}} > 
+      <div className="grn-felt-bkg" style={{backgroundImage:'url(/'+images.GreenFelt.src+')'}} > 
       <div className="login">
       <div className="container">
         <div className="row">

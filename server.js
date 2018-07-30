@@ -2,6 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const passport = require("passport");
+const path = require("path");
 // const routes = require("./routes");
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -23,9 +24,9 @@ mongoose
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 // Serve up static assets (usually on heroku)
-if (process.env.NODE_ENV === "production") {
+// if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
-}
+// }
 
 // Passport middleware
 app.use(passport.initialize());
@@ -37,6 +38,14 @@ require("./config/passport")(passport);
 // User Route
 app.use("/api/users", users);
 app.use("/api/profile", profile);
+
+// catch-all route for passing any other GET requests to
+// the html page that is housing our react application.
+app.get("/*", (req, res) => {
+  res.sendFile(path.join(__dirname, "client/build/index.html"), err => {
+    if (err) res.status(500).send(err);
+  });
+});
 
 // Connect to the Mongo DB
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/poker-boss");

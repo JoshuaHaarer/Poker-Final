@@ -46,7 +46,7 @@ class Register extends Component {
       .then(res => {
         console.log(res.data);
         // use react router v4 history object to direct user to a new link
-        this.props.history.push('/');  // this.props.history.push('/login/registerSuccess');
+        this.props.history.push('/login/registerSuccess');  // this.props.history.push('/login/registerSuccess');
       })
       .catch(err => console.log(err.response.data))
 
